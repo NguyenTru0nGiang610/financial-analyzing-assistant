@@ -6,13 +6,15 @@ from retrieval.vector_store import VectorStore
 from mlops.tracking import start_experiment, log_config
 
 
-def main():
+class IndexBuilder:
+    def __init__(self):
+        pass
+    def run(self):
+        config = yaml.safe_load(open("config.yaml"))
 
-    config = yaml.safe_load(open("config.yaml"))
+        # with start_experiment():
 
-    with start_experiment():
-
-        log_config(config)
+        #     log_config(config)
 
         docs = load_documents("data/raw")
 
@@ -36,6 +38,4 @@ def main():
 
         store.save("data/processed")
 
-
-if __name__ == "__main__":
-    main()
+        print("Index built")

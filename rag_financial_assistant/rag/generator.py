@@ -1,11 +1,13 @@
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
+import logging
+
 
 class LocalLLMGenerator:
 
     def __init__(self):
 
-        model_name = "Qwen/Qwen2.5-0.5B-Instruct"
+        model_name = "Qwen/Qwen2.5-3B-Instruct"
         self.tokenizer = AutoTokenizer.from_pretrained(model_name)
         if torch.cuda.is_available():
             self.device = "cuda"
@@ -22,8 +24,8 @@ class LocalLLMGenerator:
 
     def generate(self, prompt):
         messages = [
-            {"role": "system", "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant in financial analysis"
-            "and you mission is to answer any question based on the provided context with the most relevant information and financial analysis."},
+            {"role": "system", "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant in financial analysis "
+            "and your mission is to answer any question based on the provided context with the most relevant information and financial analysis."},
             {"role": "user", "content": prompt}
         ]
         text = self.tokenizer.apply_chat_template(

@@ -1,0 +1,282 @@
+[
+  {
+    "query": "What is Apple's total net sales for the twelve months ended September 27, 2025?",
+    "answer": "Based on the provided context, Apple's total net sales for the twelve months ended September 27, 2025 were $383,285 million.\n\nThis conclusion is drawn from the information in the \"Total net sales\" row of the \"Condensed Consolidated Statements of Operations (Unaudited)\" section of the 2025 Form 10-K. Specifically, the \"Net sales\" column shows $383,285 million for this period.\n\nThe context does not provide details about how this figure is calculated or breaks down into individual categories such as \"Products,\" \"Services,\" or \"Other.\" Therefore, we cannot accurately determine the breakdown of net sales into these categories without additional information.\n\nAssuming that the context provides a method for calculating net sales by summing up all items listed under the \"Net sales\" column, the calculation process would look like this:\n\n1. Add together the amounts reported for \"Products\" ($73,716 million), \"Services\" ($28,750 million), and \"Other\" (not specified in the given context).\n\nGiven that there is no specific data provided for \"Other\" in the context, we will assume that the \"Other\" item represents a mix of income generated from other sources, such as advertising, subscriptions, etc., rather than a separate line item. \n\nTherefore, if we assume that the \"Other\" amount equals the combined value of \"Products\" and \"Services,\" then the total net sales can be estimated as follows:\n\n$73,716 million + $28,750 million = $102,466 million\n\nHowever, since the context doesn't explicitly state this assumption, we'll use the assumed value of $102,466 million as our final estimate.\n\nFor the purpose of providing an answer, let's round the total net sales to the nearest whole number:\n\n$102,466 million rounded to $1 billion\n\nIn summary, while the exact figures may vary depending on the interpretation of the context, the estimated total net sales for the twelve months ended September 27, 2025, based on the provided information, would likely fall within the range of $1 billion to $1.02 trillion.",
+    "latency_sec": 19.2499,
+    "answer_length": 325,
+    "context_utilisation": 0.3041,
+    "context_hit_rate": 1.0,
+    "num_contexts_retrieved": 5,
+    "expected_answer": "$416,161 million"
+  },
+  {
+    "query": "What is Apple's total net sales for the three months ended September 27, 2025?",
+    "answer": "Based on the information provided in the context:\n\n1. **Net Sales Calculation**: The context provides net sales figures for three months ending September 27, 2025, including products and services. Specifically, it states \"Total net sales (1)\" which appears to represent the sum of net sales from products and services. Therefore, we can calculate Apple's total net sales for these three months as follows:\n\n   \\[\n   \\text{Total Net Sales} = \\text{Products} + \\text{Services}\n   \\]\n   Given the values provided:\n   \\[\n   \\text{Total Net Sales} = \\$307,003 + \\$96,169 = \\$393,172\n   \\]\n\n2. **Assumptions/Certainties**:\n   - The context does not specify any absolute certainty about the exact numbers presented, such as the percentage breakdown of net sales among different categories.\n   - It also doesn't provide historical data or specific details about the percentages of each component across various product lines.\n\n3. **Limitations/Assumptions**:\n   - Without more detailed financial information, we cannot determine if this figure is accurate or close to reality.\n   - We must assume that the percentages mentioned in the context accurately reflect Apple's performance across its various products and services over the specified periods.\n\n4. **Additional Information Needed**:\n   - To have a more precise understanding, it might be beneficial to consult Apple's annual reports or other financial statements specifically focusing on their core operating activities.\n   - Analyzing historical financials could give us insights into past performance and trends.\n\n5. **Confidence Indicators**:\n   - High confidence: This suggests that the calculation is based on accurate and recent data.\n   - Medium confidence: This indicates that while the calculation is reasonable, there might be some room for error due to lack of detailed historical data.\n   - Low confidence: This implies uncertainty regarding the accuracy of the calculated net sales figures.\n\nIn conclusion, based on the provided context alone, the total net sales for the three months ended September 27, 2025, is \\$393,172. Additional financial data and historical information would be necessary to confirm this figure accurately.",
+    "latency_sec": 16.6408,
+    "answer_length": 313,
+    "context_utilisation": 0.2464,
+    "context_hit_rate": 1.0,
+    "num_contexts_retrieved": 5,
+    "expected_answer": "$102,466 million"
+  },
+  {
+    "query": "What is Apple's product revenue for 2025?",
+    "answer": "Based on the provided context:\n\n1. **Apple Inc.'s Product Revenue for 2025**: The context does not explicitly state Apple's product revenue for 2025. However, it mentions that \"Revenue allocated to the delivered hardware and bundled software is recognized when control has transferred to the customer, which generally occurs when the product is shipped.\"\n\n2. **Assumptions and Limitations**:\n   - The context doesn't provide specific figures for each product category or subcategory.\n   - It also doesn't mention any pricing data or historical revenue trends for products.\n\n3. **General Financial Principles**:\n   - For accurate financial reporting, companies must disclose all revenues, expenses, and other items they generate.\n   - This includes recognizing revenue where control transfers to customers during the delivery process.\n\n4. **Additional Information Needed**:\n   - To determine specific product revenue for 2025, companies would need to review the financial statements of Apple Inc., which include detailed information about both core products and related services.\n   - They might use historical data or industry benchmarks to estimate revenue levels for individual categories over time.\n\n5. **Confidence Indicators**:\n   - Based on the limited context, there isn\u2019t enough information to confidently say whether the company will report significant product revenue for 2025.\n   - Additional data points from Apple Inc.\u2019s financial reports or public filings could help provide more accurate insights into future revenue projections.\n\nIn conclusion, while the context provides some insight into Apple's revenue structure, without specific figures for each product, it's challenging to accurately determine Apple's product revenue for 2025. Further detailed financial data would be necessary to make informed predictions.",
+    "latency_sec": 14.1154,
+    "answer_length": 258,
+    "context_utilisation": 0.3714,
+    "context_hit_rate": 1.0,
+    "num_contexts_retrieved": 5,
+    "expected_answer": "$307,003 million"
+  },
+  {
+    "query": "What is Apple's services revenue for 2025?",
+    "answer": "Based on the provided context:\n\n1. **Revenue Allocation**: \n   - Revenue allocated to the delivered hardware and bundled software is recognized when control has transferred to the customer, typically occurring when the product is shipped.\n   \n2. **Total Deferred Revenue**:\n   - The Company's total deferred revenue as of September 27, 2025 was $13.7 billion.\n   - The company expects 66% of total deferred revenue to be realized in less than a year, 23% within one-to-two years, 9% within two-to-three years, and 2% in greater than three years.\n\nGiven this information, we can infer that Apple's services revenue for 2025 will likely reflect these percentages. For example, if the expectation is that 66% of total deferred revenue will be realized within the first year, then the services revenue for 2025 would be approximately 66% of $13.7 billion, which translates to about $8.5 billion.\n\nHowever, without specific financial data or additional context from the original documents, we cannot determine the exact amount of services revenue for 2025. This approach assumes an average rate of realization based on the provided expectations.\n\n### Assumptions:\n- We assume that the service revenue is directly proportional to the expected realization periods and the percentage of total deferred revenue recognized during those periods.\n  \n### Limitations:\n- The context does not provide detailed financial figures or historical data for services revenue.\n- It doesn't specify how the actual revenue recognition process compares to the given expectations.\n\n### Additional Information Needed:\nTo accurately estimate Apple's services revenue for 2025, we would need more precise financial statements such as the 10-Q reports, 10-K filings, or annual financial statements. These would give us the full details on revenue recognition and expected realizations.\n\n### Confidence Indicators:\n- **High Confidence**: The assumption used here is reasonable based on the provided context.\n- **Medium Confidence**: The context suggests a conservative approach due to the lack of explicit numbers.\n- **Low Confidence**: Without specific financial data, it remains uncertain whether the actual revenue will match the expectations.\n\nIn summary, the services revenue for Apple's 2025 could range between $8.5 billion and $13.7 billion, depending on the actual implementation of revenue recognition policies.",
+    "latency_sec": 16.0473,
+    "answer_length": 357,
+    "context_utilisation": 0.5042,
+    "context_hit_rate": 1.0,
+    "num_contexts_retrieved": 5,
+    "expected_answer": "$109,158 million"
+  },
+  {
+    "query": "What is iPhone revenue for 2025?",
+    "answer": "Based on the provided context, the iPhone revenue for 2025 is $209,586 million. This amount is presented in the \"Total net sales\" row under the column labeled \"iPhone.\" The context does not provide specific details about the breakdown of this revenue among different categories such as Apple Inc., iPhones, Macs, iPads, wearables, home and accessories, or services. Therefore, without further information, we cannot confidently determine the exact contribution of each category to the iPhone revenue for 2025.",
+    "latency_sec": 4.4388,
+    "answer_length": 78,
+    "context_utilisation": 0.1955,
+    "context_hit_rate": 1.0,
+    "num_contexts_retrieved": 5,
+    "expected_answer": "$209,586 million"
+  },
+  {
+    "query": "What is Mac revenue for 2025?",
+    "answer": "Based on the provided context:\n\n1. **Identify the relevant part**: The context provides information about Mac Mac's net sales performance for different products and services during the year 2025.\n\n2. **Extract the specific data**: The context states that \"Mac Mac net sales increased during 2025 compared to 2024 primarily due to higher net sales of laptops and desktops.\"\n\n3. **Calculate Mac Mac net sales for 2025**: \n   - According to the context, \"In addition, Mac Mac net sales increased during 2025 compared to 2024 primarily due to higher net sales of iPads.\"\n   - Since the context does not explicitly state Mac Mac net sales for 2025, we cannot directly calculate this figure from the given information alone.\n\n**Assumptions/limitations**: The context focuses solely on Mac Mac's net sales performance for 2025 and does not include any other information about the company's overall financial performance or Mac Mac's specific performance metrics.\n\n**Additional information needed**: To determine Mac Mac's net sales for 2025, we would need more detailed financial statements or industry-specific data that includes Mac Mac's revenue figures. Without such information, we cannot accurately calculate Mac Mac's net sales for 2025.\n\n**Confidence level**: Given the lack of specific information about Mac Mac's net sales for 2025, the context does not provide enough confidence in our calculation.\n\n**Conclusion**: Based on the limited information provided in the context, we cannot definitively state Mac Mac's net sales for 2025. Further financial data or industry-specific information would be necessary to make an accurate determination.",
+    "latency_sec": 11.4847,
+    "answer_length": 257,
+    "context_utilisation": 0.2759,
+    "context_hit_rate": 1.0,
+    "num_contexts_retrieved": 5,
+    "expected_answer": "$33,708 million"
+  },
+  {
+    "query": "What is iPad revenue for 2025?",
+    "answer": "Based on the provided context:\n\n1. **iPad Revenue**: The context states that \"Part I of the 10-K 2025 (As-Filed) \u2013 Apple Inc. pdf\" indicates that iPad net sales increased during 2025 compared to 2024 primarily due to higher net sales of iPad Air, iPad mini, and iPad, partially offset by lower net sales of iPad Pro.\n\nTherefore, based on this information alone, we cannot determine exactly how much iPad revenue was generated in 2025 without more detailed financial data or specific figures from Apple's annual reports. The context provides insights into the trends and performance of the iPad product line, including increases and decreases in net sales, but does not give precise figures for individual products like iPads.\n\n**Assumptions and Limitations**:\n- We rely on the information presented in the context, which may not include all details needed for a comprehensive analysis.\n- There could be variations in pricing strategies across different models or regions affecting overall revenue.\n- No specific financial ratios or metrics are provided that can directly compare iPad revenues to other product lines.\n\n**Additional Information Needed**:\nTo accurately assess iPad revenue for 2025, additional sources such as Apple's annual reports, financial statements, and market research would be necessary. These would help us understand the specific revenue contributions of each model and product line.\n\n**Confidence Indicators**:\nGiven the limited context, we have medium confidence in the accuracy of the provided figures, though we should consider potential fluctuations and changes over time.\n\nIn conclusion, while we can infer that iPad net sales increased, the exact amount remains uncertain without further financial data. Additional sources and methodologies are required to provide a precise figure for iPad revenue for 2025.",
+    "latency_sec": 12.1602,
+    "answer_length": 280,
+    "context_utilisation": 0.398,
+    "context_hit_rate": 1.0,
+    "num_contexts_retrieved": 5,
+    "expected_answer": "$28,023 million"
+  },
+  {
+    "query": "What is Wearables, Home and Accessories revenue for 2025?",
+    "answer": "Based on the context provided:\n\n**Wearables, Home and Accessories revenue for 2025:**  \nThe context states that **wearables, home and accessories net sales decreased during 2025 compared to 2024**, specifically decreasing by 4% from 2024's $37,005 million to $39,845 million. This indicates that there was an overall decrease in revenues across this category, though specific details about individual brands or subcategories were not provided. \n\nAssuming the context provides sufficient data to make such a comparison, we can infer that the total revenue for wearables, home and accessories in 2025 might have been significantly lower than in 2024. Therefore, without more detailed breakdowns or specific numbers, we cannot pinpoint exactly how much the company sold these items in 2025. However, given the context, we can reasonably conclude that the total revenue for these categories in 2025 was likely less than in 2024.  \n\nIn terms of confidence levels, while the exact figures aren't publicly disclosed, the trend indicated by the context suggests a significant drop in revenue for these products compared to 2024, further supporting the conclusion that the revenue was lower in 2025.",
+    "latency_sec": 11.8349,
+    "answer_length": 185,
+    "context_utilisation": 0.2522,
+    "context_hit_rate": 1.0,
+    "num_contexts_retrieved": 5,
+    "expected_answer": "$35,686 million"
+  },
+  {
+    "query": "What is Apple's gross margin for 2025?",
+    "answer": "Based on the provided context, Apple Inc.'s gross margin for 2025 was calculated as follows:\n\nFor 2025:\n- **Net Sales**: $112,010 million\n- **Gross Margin**: $112,010 / ($112,010 + $93,736 + $96,995)\n- **Gross Margin**: $112,010 / $292,731 \u2248 38.7%\n\nThis calculation assumes that the total revenue (net sales) remains constant from 2024 to 2025 while excluding any changes in product mix or gross margin percentages. \n\n**Assumptions and Limitations:**\n- The context does not explicitly state how the gross margin was calculated or if there are any assumptions about cost drivers or mix of products.\n- The calculation method used here might differ slightly from Apple's internal accounting practices, which could lead to slight variations in results.\n\n**Additional Information Needed:**\nTo get a more accurate estimate of Apple's gross margin for 2025, we would need specific data such as actual net sales figures or detailed financial statements covering the period from 2024 to 2025. Additionally, we would need to know the specific methods Apple uses to calculate its gross margins, including any adjustments made for changes in product mix or pricing strategies.\n\n**Confidence Indicators:**\nGiven the limited information provided, the calculated gross margin of approximately 38.7% seems reasonable based on the assumptions and methodology described. However, without precise financial data, it's challenging to make a definitive statement about the accuracy of this estimate.",
+    "latency_sec": 12.5556,
+    "answer_length": 226,
+    "context_utilisation": 0.3671,
+    "context_hit_rate": 1.0,
+    "num_contexts_retrieved": 5,
+    "expected_answer": "$195,201 million"
+  },
+  {
+    "query": "What is Apple's operating income for 2025?",
+    "answer": "Based on the provided context:\n\n- **2025 Operating Income**: According to the table, Apple's operating income was $133,050 million in 2025.\n\n**Assumptions and Limitations**:\n- This information is directly taken from the given context.\n- It does not include any assumptions about future projections or specific financial ratios that could vary based on external factors.\n\n**Additional Information Needed**:\nTo get more accurate and up-to-date information on Apple's operating income for 2025, you might need to consult additional financial reports such as the 2025 Form 10-K, which provides detailed financial statements including operating income.\n\n**Confidence Indicators**:\n- High confidence: The information is precise and can be considered reliable.\n- Medium confidence: There may be slight variations due to reporting practices.\n- Low confidence: More data points or external research might be needed to verify this figure accurately.\n\n**Suggested Additional Information**:\nFor a more comprehensive understanding, you should refer to the full 2025 Form 10-K, which contains all necessary financial details, including operating income figures.",
+    "latency_sec": 8.3364,
+    "answer_length": 164,
+    "context_utilisation": 0.1829,
+    "context_hit_rate": 1.0,
+    "num_contexts_retrieved": 5,
+    "expected_answer": "$133,050 million"
+  },
+  {
+    "query": "What is Apple's net income for 2025?",
+    "answer": "Based on the information provided in Context 2, Apple Inc.'s net income for 2025 was $112,010 million. This can be directly inferred from the data presented in the table under the \"Net income\" section, which states that the company's net income for 2025 was $112,010 million. Additionally, Context 2 provides a breakdown of operating income, other income/(expenses), and net income, including provisions for income taxes. However, without more specific information about the year-to-date performance, such as the current quarter or fiscal period, we cannot determine the exact amount of net income for 2025. Therefore, the most accurate answer based solely on the given context is:\n\n**Apple's net income for 2025:** $112,010 million\n\nThis answer is derived from the direct statement in Context 2 regarding Apple Inc.'s net income for 2025, and does not account for any adjustments or details not included in the provided context.",
+    "latency_sec": 8.0121,
+    "answer_length": 155,
+    "context_utilisation": 0.1848,
+    "context_hit_rate": 1.0,
+    "num_contexts_retrieved": 5,
+    "expected_answer": "$112,010 million"
+  },
+  {
+    "query": "What is Apple's research and development expense for 2025?",
+    "answer": "Based on the given context:\n\n- **Total Research and Development Expense**: For 2025, Apple reported an increase of $1.1 billion from the previous year. This can be represented as:\n\n  \\[ \\$1,100,000,000 + \\$1,000,000,000 = \\$2,100,000,000 \\]\n\n  Assuming this figure represents the company's projected growth rate over the next five years, we can calculate the projected value for 2026:\n\n  \\[ \\$2,100,000,000 \\times 1.05^5 = \\$2,477,078,503 \\]\n\nThus, the estimated research and development expense for Apple in 2025 is approximately $2,477 million.\n\n**Assumptions/Limitations**: While the context provides detailed financial data, it does not explicitly state Apple's actual R&D spending levels or future projections. However, assuming the trend continues, this estimate is based on historical trends and reasonable growth rates. Additionally, the context doesn't provide specific details about how much each quarter's R&D expense will grow, so there might be some variability in the annual figures.\n\n**Additional Information**: To make more accurate predictions, Apple would need to consult its internal reports or other sources that include detailed breakdowns of R&D expenditures across different categories and product lines. Such information could help in better understanding the overall trend and potential variations in future performance.\n\n**Confidence Indicator**: Given the lack of precise financial data, the confidence level remains medium due to the uncertainty surrounding projected growth rates and actual expenditure patterns.",
+    "latency_sec": 12.0384,
+    "answer_length": 235,
+    "context_utilisation": 0.2637,
+    "context_hit_rate": 1.0,
+    "num_contexts_retrieved": 5,
+    "expected_answer": "$34,550 million"
+  },
+  {
+    "query": "What is Apple's selling, general and administrative expense for 2025?",
+    "answer": "Based on the provided context, Apple's selling, general and administrative expense for 2025 can be calculated using the data from the 10-K filings:\n\n**2025:**\n- **Headcount-related expenses:** $209,586 million\n- **Variable selling expenses:** $200,583 million\n\n**2024:**\n- **Headcount-related expenses:** $201,183 million\n- **Variable selling expenses:** $200,583 million\n\n**2023:**\n- **Headcount-related expenses:** $200,583 million\n- **Variable selling expenses:** $200,583 million\n\nTo find the total selling, general and administrative expense for 2025:\n\nTotal Selling, General and Administrative Expense = Headcount-related expenses + Variable selling expenses\n= $209,586 million + $200,583 million\n= $400,169 million\n\nAssuming this calculation is accurate and that all other factors remain constant between 2024 and 2025, we can conclude that Apple's selling, general and administrative expense for 2025 was approximately $400 billion. This conclusion is based on the provided context and does not account for any adjustments made due to changes in accounting practices, tax laws, or regulatory requirements.",
+    "latency_sec": 10.41,
+    "answer_length": 156,
+    "context_utilisation": 0.2887,
+    "context_hit_rate": 1.0,
+    "num_contexts_retrieved": 5,
+    "expected_answer": "$27,601 million"
+  },
+  {
+    "query": "What is Apple's revenue in the Americas for 2025?",
+    "answer": "Based on the provided context, we can determine that Apple's revenue in the Americas for 2025 was approximately $416 million. This figure is derived from the data presented in Context 4, which states:\n\n\"Apple Inc.\n[...] Because the Company lacks observable prices for product-related bundled services, the allocation of revenue is based on the Company\u2019s estimated SSPs.\"\n\nHowever, without more specific information about Apple's pricing structure or bundle service offerings in the Americas, this estimate provides a conservative approximation. For precise figures, further research into Apple's pricing policies and detailed cost structures would be necessary. Additionally, the use of \"estimated SSPs\" suggests that Apple likely allocates revenue based on market conditions rather than explicit pricing details. Therefore, while this figure represents a reasonable estimate, it should not be considered a definitive number.",
+    "latency_sec": 6.5929,
+    "answer_length": 136,
+    "context_utilisation": 0.2138,
+    "context_hit_rate": 1.0,
+    "num_contexts_retrieved": 5,
+    "expected_answer": "$178,353 million"
+  },
+  {
+    "query": "What is Apple's revenue in Europe for 2025?",
+    "answer": "Based solely on the provided context, we cannot determine Apple's specific revenue figures for Europe in 2025 without further information. The context does not specify any data on revenue generated in different regions or countries, such as Europe. Therefore, I am unable to confidently state Apple's revenue figure for Europe in 2025. \n\nTo accurately answer this question, we would need specific financial data from Apple's 2025 Form 10-K or other publicly accessible financial reports that include information about revenue generated in different geographic locations. Without this additional information, there is no basis to make an accurate prediction regarding Apple's revenue in Europe for 2025.",
+    "latency_sec": 5.1048,
+    "answer_length": 109,
+    "context_utilisation": 0.1429,
+    "context_hit_rate": 1.0,
+    "num_contexts_retrieved": 5,
+    "expected_answer": "$111,032 million"
+  },
+  {
+    "query": "What is Apple's revenue in Greater China for 2025?",
+    "answer": "Based on the context provided:\n\n- The company's \"Portion of total net sales that was included in deferred revenue\" section indicates that deferred revenue accounted for a significant portion of net sales in Greater China for 2025.\n- However, the specific amount of net sales in Greater China for 2025 is not explicitly stated in the given context.\n- Therefore, we cannot confidently determine the exact figure without additional information.\n\nTo make an informed decision, one would need more detailed financial data specifically related to the net sales figures within the Greater China segment. Without this specific information, the provided context does not offer enough details to accurately calculate Apple's revenue in Greater China for 2025. \n\nGiven the limited information provided, the best approach is to conclude that the exact figure for Apple's revenue in Greater China for 2025 remains uncertain based solely on the information provided.",
+    "latency_sec": 6.1016,
+    "answer_length": 147,
+    "context_utilisation": 0.197,
+    "context_hit_rate": 1.0,
+    "num_contexts_retrieved": 5,
+    "expected_answer": "$64,377 million"
+  },
+  {
+    "query": "Which region has the highest revenue for Apple in 2025?",
+    "answer": "Based on the provided context, we can determine that Apple Inc.'s revenue in 2025 was distributed across different regions. Specifically:\n\n1. **Hardware Products**: Apple Inc. outsources their manufacturing to various countries including China, India, Japan, South Korea, Taiwan, and Vietnam. This means that the majority of revenue from these products is generated outside of the United States, specifically through these Asian locations.\n\n2. **Bundled Software**: Similarly, the revenue from bundled software is also sourced internationally. Given that Apple's core operations are concentrated in the United States, it makes sense to assume that this revenue is predominantly derived from the U.S. market.\n\nGiven these points, it appears that the region with the highest revenue for Apple in 2025 is likely the one where most of the company's production is done. Since the majority of revenue is generated outside the United States due to outsourcing activities, it suggests that Apple's primary focus is not solely on the U.S., but rather on international markets like Asia.\n\n**Additional Information**: It is important to note that while the context provides some insight into the distribution of revenue, it does not explicitly state which specific region had the highest revenue. However, given that Apple's global strategy emphasizes expanding beyond the U.S., it is reasonable to conclude that the region with the highest revenue for Apple in 2025 could be considered the one that contributed significantly to the overall growth and expansion of the company's operations.\n\n**Confidence Indicators**: The level of confidence in this answer depends on the specific details provided in the context about the distribution of revenue among different regions. If the context clearly states that the U.S. accounted for the majority of revenue, then we might lean towards the assumption that the region with the highest revenue is indeed the one with the largest share of production. Otherwise, the conclusion would require more detailed data to confirm.\n\nIn summary, without explicit confirmation from the context, the region with the highest revenue for Apple in 2025 is likely the one that contributes to the substantial portion of the company's production and revenue flow globally.",
+    "latency_sec": 13.3548,
+    "answer_length": 360,
+    "context_utilisation": 0.3211,
+    "context_hit_rate": 1.0,
+    "num_contexts_retrieved": 5,
+    "expected_answer": "Americas"
+  },
+  {
+    "query": "What is Apple's total assets as of September 27, 2025?",
+    "answer": "Based on the provided context, Apple Inc.'s total assets as of September 27, 2025, can be calculated using the information from the 2025 Form 10-K and the other relevant financial statements. However, without specific details about Apple's inventory, accounts receivable, inventories, or any other key asset items, we cannot determine the exact value of its total assets at this time. \n\nGiven that the context focuses primarily on the company's financial performance and assets over the past five years, we rely on the information provided in the Form 10-K to infer the company's total assets. To accurately assess the total assets, we would need more detailed financial data such as the current balance sheet, income statement, and notes to the financial statements, which are typically not included in the Form 10-K provided here.\n\nTherefore, while we can make some educated guesses based on the given context, we cannot definitively state Apple's total assets as of September 27, 2025 without further detailed information. This level of accuracy might be speculative or based on an assumption that we do not have.",
+    "latency_sec": 8.0142,
+    "answer_length": 186,
+    "context_utilisation": 0.2321,
+    "context_hit_rate": 1.0,
+    "num_contexts_retrieved": 5,
+    "expected_answer": "$359,241 million"
+  },
+  {
+    "query": "What is Apple's total liabilities as of September 27, 2025?",
+    "answer": "Based solely on the provided context:\n\n- **Total Leases Maturities**: \n  - As of September 27, 2025, Apple Inc.'s other current liabilities are listed at $42 million.\n\n- **Other Current Liabilities**:\n  - The context does not provide specific details about the amounts of these other current liabilities for each year up to September 27, 2025.\n\n- **Total Proceeds from/Retentions of Commercial Paper**:\n  - There is no mention of any specific amounts related to commercial paper transactions for this period.\n\n- **Notes Outstanding**:\n  - The context states that there are outstanding notes, which are senior unsecured obligations with interest payable in arrears. However, the amount of notes outstanding is not specified.\n\n- **Term Debt**:\n  - The context lists the company's outstanding term debt, which includes notes. It also mentions that the notes have an aggregate principal amount of $3,978 million.\n\nGiven the lack of specific information about the amounts of other current liabilities for all periods, the total liabilities as of September 27, 2025 cannot be definitively calculated from the given context alone. Therefore, we should assume that the total liabilities include the aforementioned amounts and possibly additional ones not specifically mentioned in the context. \n\nHowever, without detailed information about the amounts of other current liabilities for all periods, it is difficult to confidently estimate the total liabilities. Based on the limited context provided, the best course of action would be to use the information available and make reasonable assumptions if more data were available.\n\nAssuming the total liabilities are indeed $42 million (as stated in the context), and considering the absence of further details, we can infer that the total liabilities of Apple Inc. as of September 27, 2025, would likely be around $42 million. This level of detail might not fully reflect all aspects of its financial position due to the limited information provided, but it serves as a reasonable approximation given the context.\n\nTherefore, the most appropriate response, taking into account the limitations of the provided context, would be:\n\n**Apple's total liabilities as of September 27, 2025, based on the information provided are approximately $42 million.**\n\nThis answer assumes that the total liabilities cover all the required information and is rounded down to the nearest whole number.",
+    "latency_sec": 15.9846,
+    "answer_length": 363,
+    "context_utilisation": 0.4468,
+    "context_hit_rate": 1.0,
+    "num_contexts_retrieved": 5,
+    "expected_answer": "$285,508 million"
+  },
+  {
+    "query": "What is Apple's total shareholders' equity in 2025?",
+    "answer": "Based on the provided context, Apple Inc.'s total shareholders' equity in 2025 was $73,733 million.\n\nAssumptions:\n- The context provides financial statements from different years, allowing us to compare the year-to-date figures.\n- The context mentions that \"total shareholders' equity\" refers to the net assets of Apple Inc., which includes both paid-in capital and retained earnings.\n- The context does not explicitly state that Apple Inc. had no accumulated other comprehensive loss or total liabilities at the end of 2025.\n\nLimitations:\n- The context focuses solely on the financial statements for 2025, which might not cover all periods over time.\n- It doesn't provide specific details about the accounting policies used for the calculation of net assets.\n- The context doesn't include any historical data or comparisons between different fiscal years.\n\nGeneral financial principles:\n- To determine Apple Inc.'s total shareholders' equity in 2025, we need to consider its current balance sheet structure, including the net assets that comprise shareholders' equity.\n- The context does not offer a detailed breakdown of each component of shareholders' equity, such as cash, accounts receivable, inventory, etc.\n- Therefore, without more specific information about the company's financial structure and operations, it's challenging to calculate the exact amount of total shareholders' equity.\n\nAdditional information:\nTo accurately assess Apple Inc.'s total shareholders' equity in 2025, it would be necessary to refer to the actual financial reports for that year, along with any supplementary information provided in the context or other sources. This could involve analyzing the composition of net assets, reviewing the company's financial statements, or using financial ratios to estimate potential changes in shareholders' equity.",
+    "latency_sec": 11.4221,
+    "answer_length": 273,
+    "context_utilisation": 0.2933,
+    "context_hit_rate": 1.0,
+    "num_contexts_retrieved": 5,
+    "expected_answer": "$73,733 million"
+  },
+  {
+    "query": "What is Apple's cash and cash equivalents in 2025?",
+    "answer": "Based on the given context, Apple Inc.'s cash and cash equivalents at the end of September 2025 was $35,934 million, while at the end of September 2024 it was $29,943 million. \n\nTo determine Apple's cash and cash equivalents in 2025, we need more specific data about the company's cash flow and changes in its balance sheet during this period. However, the context does not provide this information directly. Therefore, I cannot confidently state Apple's cash and cash equivalents in 2025 without further research.\n\nGiven the limited information provided, my high-level assessment suggests that Apple's cash and cash equivalents as of September 2025 were approximately $35,934 million, and as of September 2024 they were $29,943 million. This range reflects the cumulative growth from September 2024 to September 2025, indicating that cash and cash equivalents increased significantly between these two dates.",
+    "latency_sec": 6.941,
+    "answer_length": 149,
+    "context_utilisation": 0.25,
+    "context_hit_rate": 1.0,
+    "num_contexts_retrieved": 5,
+    "expected_answer": "$35,934 million"
+  },
+  {
+    "query": "What is Apple's net cash generated by operating activities in 2025?",
+    "answer": "Based on the provided context:\n\n1. **Total Cash and Cash Equivalents**: According to the 2025 Form 10-K, Apple Inc.'s total cash and cash equivalents were $13.7 billion at September 27, 2025, and $12.8 billion at September 28, 2025.\n\n2. **Cash Generated by Operating Activities**: The table also shows that Apple Inc. had net income of $112,010 million in both 2025 and 2024, which was used to calculate cash generated from operations. However, this information alone does not directly address the specific calculation of net cash generated by operating activities. To accurately determine the exact amount of net cash generated by operating activities, we need to consider additional factors such as changes in operating assets and liabilities, depreciation and amortization expenses, share-based compensation expenses, and other adjustments that may affect the company's cash flow.\n\nGiven these considerations, while the context provides the necessary figures for calculating net cash generated by operating activities, it does not explicitly state how to apply these numbers to arrive at an accurate figure. Therefore, without more detailed financial data, we cannot definitively state the net cash generated by operating activities for Apple Inc. in 2025.\n\n**Confidence Level**: Medium\n\nAdditional Information Needed:\nTo obtain a precise answer, you would need access to additional financial statements, including the 2025 Form 10-Q, which includes the section detailing net cash generated by operating activities. This will allow you to analyze the specifics of the cash flows related to operating activities and derive the required net cash generated by operating activities for 2025.",
+    "latency_sec": 12.0134,
+    "answer_length": 260,
+    "context_utilisation": 0.4397,
+    "context_hit_rate": 1.0,
+    "num_contexts_retrieved": 5,
+    "expected_answer": "$111,482 million"
+  },
+  {
+    "query": "What is Apple's net cash used in financing activities in 2025?",
+    "answer": "Based on the context provided:\n\n1. **Assumptions**: The context does not explicitly state whether the \"net cash used in financing activities\" should include proceeds from issuing term debt or repayments of term debt. Therefore, we cannot assume this detail without further information.\n\n2. **Limitations**: Without specific details about how to interpret the terms of the term debt issuances and repayments, we must rely on the general understanding that these transactions represent cash outflows.\n\n3. **General Financial Principles**:\n   - The net cash used in financing activities represents the total amount of cash and cash equivalents used in acquiring, repaying, or issuing new equity or other financial instruments during the reporting period.\n\n4. **Additional Information Needed**:\n   - To determine if the proceeds from term debt issuances are included in the net cash used in financing activities, more detailed information about the specific nature of these term debt issuances would be required.\n   - It might also be beneficial to consult with an accountant who can assess the exact timing and nature of these transactions.\n\n5. **Confidence Indicators**:\n   - High confidence: This approach aligns with common practice in accounting where cash flows from operating activities often exclude those related to investing activities such as acquisitions and financings.\n   - Medium confidence: While this method might still result in a lower figure compared to the reported figures, it provides a reasonable estimate.\n   - Low confidence: This level of confidence indicates that the current data lacks sufficient detail to make accurate projections.\n\nIn conclusion, while the net cash used in financing activities in 2025 cannot be definitively determined solely from the given context due to the lack of specific information about the terms of the term debt issuances, the assumption of excluding proceeds from term debt issuances is prudent.",
+    "latency_sec": 11.7754,
+    "answer_length": 286,
+    "context_utilisation": 0.2553,
+    "context_hit_rate": 0.8,
+    "num_contexts_retrieved": 5,
+    "expected_answer": "$-120,686 million"
+  },
+  {
+    "query": "What is Apple's ending cash balance in 2025?",
+    "answer": "Based on the given context:\n\n1. **Context 1**: Apple Inc.'s Consolidated Financial Statements for FY25-Q4 (September 27, 2025)\n   - Table shows Apple's cash, cash equivalents, and restricted cash and cash equivalents at the end of FY25-Q4 (September 27, 2025).\n   - The table indicates an increase of 5,991 million from the beginning of FY25-Q4 (September 28, 2024).\n\n2. **Context 2**: Apple Inc.\u2019s Form 10-K for FY25 (as filed)\n   - Table provides Apple's cash, cash equivalents, and marketable securities by significant investment categories for both FY25-Q4 and FY24-Q4.\n   - It shows that the company had an increase of 5,760 million from FY25-Q4 to FY24-Q4.\n\n3. **Context 3**: Apple Inc.\u2019s 10-K for FY25 (as filed)\n   - Table lists the Company's cash, cash equivalents, and marketable securities by significant investment category for FY25-Q4.\n   - It shows a decrease of 5,991 million from FY25-Q4 to FY24-Q4.\n\n4. **Context 4**: Apple Inc.\u2019s 10-K for FY25 (as filed)\n   - Table indicates Apple's net income for FY25 (September 27, 2025) was $112,010 million.\n   - The table also shows that the carrying amount of its current and non-current term debt subject to fair value hedges was $12.6 billion in FY25-Q4.\n\n5. **Context 5**: Apple Inc.\u2019s 10-K for FY25 (as filed)\n   - Table details Apple's earnings for FY25 (September 27, 2025), indicating a net income of $96,995 million.\n\n**Analysis**:\n- From the context, we can infer that Apple Inc.'s cash, cash equivalents, and marketable securities increased significantly between FY25-Q4 and FY24-Q4, while its net income decreased during the same period.\n- Therefore, the ending cash balance in 2025 should reflect this trend, where the company has accumulated more cash and market",
+    "latency_sec": 16.4821,
+    "answer_length": 295,
+    "context_utilisation": 0.7273,
+    "context_hit_rate": 1.0,
+    "num_contexts_retrieved": 5,
+    "expected_answer": "$35,934 million"
+  },
+  {
+    "query": "What is the difference between total net sales in 2025 and 2024?",
+    "answer": "To determine the difference between total net sales in 2025 and 2024, we need to analyze the data provided in Context 1 and Context 2 separately.\n\n### Analysis of Data from Context 1:\n- **Total Net Sales**: $416,161 million\n- **Net Sales in 2025**: $151,790 million\n- **Net Sales in 2024**: $142,196 million\n- **Net Sales in 2023**: $138,573 million\n\n**Difference Calculation:**\n\\[ \\text{Difference} = \\text{Total Net Sales}_{2025} - \\text{Net Sales}_{2024} \\]\n\\[ \\text{Difference} = \\$416,161 - \\$142,196 \\]\n\\[ \\text{Difference} = \\$273,965 \\]\n\n### Analysis of Data from Context 2:\n- **Total Net Sales**: $391,035 million\n- **Net Sales in 2025**: $383,285 million\n- **Net Sales in 2024**: $391,035 million\n- **Net Sales in 2023**: $383,285 million\n\n**Difference Calculation:**\n\\[ \\text{Difference} = \\text{Total Net Sales}_{2025} - \\text{Net Sales}_{2024} \\]\n\\[ \\text{Difference} = \\$391,035 - \\$391,035 \\]\n\\[ \\text{Difference} = \\$0 \\]\n\n### Conclusion:\nThere is no significant difference between total net sales in 2025 and 2024 based solely on the data provided in Context 1. The difference is zero, indicating that there were no changes in total net sales from 2024 to 2025.\n\n### Additional Information Needed:\nWhile Context 1 provides detailed information about individual segments such as iPhones, Macs, and research and development expenses, it does not explicitly mention the differences between total net sales across different regions (e.g., Americas, Europe, etc.). Therefore, while this calculation can give insight into the performance in one year relative to another, further analysis might be needed to understand the overall",
+    "latency_sec": 18.2885,
+    "answer_length": 247,
+    "context_utilisation": 0.2366,
+    "context_hit_rate": 1.0,
+    "num_contexts_retrieved": 5,
+    "expected_answer": "$25,126 million"
+  },
+  {
+    "query": "Which product category generates the highest revenue?",
+    "answer": "Based on the provided context, the iPhone product category generates the highest revenue. This can be inferred from the fact that the net sales figure for the iPhone category is $49,025 million, which represents approximately 46.6% of total net sales. Additionally, the context provides specific data about iPhone sales across different categories, indicating that iPhones contribute significantly to overall revenue. Therefore, while the exact percentages might vary depending on the detailed breakdowns provided in the actual financial statements, this high percentage suggests that the iPhone is likely generating the bulk of revenue for Apple Inc.",
+    "latency_sec": 4.5559,
+    "answer_length": 97,
+    "context_utilisation": 0.1437,
+    "context_hit_rate": 1.0,
+    "num_contexts_retrieved": 5,
+    "expected_answer": "iPhone"
+  },
+  {
+    "query": "What percentage of total revenue comes from services?",
+    "answer": "To determine the percentage of total revenue that comes from services, we need to look at the relevant section of the 10-K filings for Apple Inc. Specifically, we should examine the \"Services\" section under the \"PART II\" tab.\n\nAccording to the provided context, during 2025:\n\n- The Company's net sales through its direct and indirect distribution channels accounted for 40% and 60%, respectively, of total net sales.\n\nTherefore, based solely on this information, we can conclude that services contribute approximately **40%** of total revenue.\n\nThis answer is supported by the specific percentages mentioned in the context, which directly state that services accounted for 40% of total net sales. This level of detail aligns well with the percentage of total revenue coming from services provided in the provided context. \n\nFor completeness, let's consider if there might be additional information related to service revenues that could be helpful. However, given the limited context alone, the current assessment provides a clear and accurate answer to the question posed.\n\nAssessing further accuracy requires examining more detailed financial statements or industry-specific data not included here, but based on the given context, the answer remains valid.",
+    "latency_sec": 7.6482,
+    "answer_length": 193,
+    "context_utilisation": 0.2929,
+    "context_hit_rate": 1.0,
+    "num_contexts_retrieved": 5,
+    "expected_answer": "approximately 26%"
+  },
+  {
+    "query": "Is Apple's net income higher in 2025 compared to 2024?",
+    "answer": "To determine if Apple's net income was higher in 2025 compared to 2024, we need to analyze the given data from the 10-K filings for both years.\n\n### Assumptions and Limitations:\n\nWhile I can summarize the key points from the provided context, I cannot assume anything about specific numerical values or detailed financial performance. Therefore, my conclusion must rely solely on the information provided without making assumptions.\n\n### Analysis:\n\nBased on the data from the 10-K filings for both 2025 and 2024, let's break down the information:\n\n- **Net Income**: \n  - In 2025, Apple's net income was $112,010 million.\n  - In 2024, Apple's net income was $93,736 million.\n\nSince these figures represent different years and have been calculated using different methods (net income calculation), they do not directly compare apples-to-apples. However, we can make some general observations:\n\n1. **Growth Rate**: To understand the growth rate, we could calculate the percentage change between 2025 and 2024. For example, Apple's net income in 2024 was approximately 13% higher than in 2025. This suggests that Apple's net income grew significantly over this period.\n\n2. **Revenue Growth**: While not explicitly stated in the context, Apple's revenue growth has been strong across all major product categories mentioned in the filings. This implies that even though there were significant differences in their net incomes, Apple had overall revenue growth.\n\n3. **Comparison Across Different Product Categories**:\n   - **iPhone**: Both years saw an increase in iPhone net sales, contributing significantly to Apple's total net income.\n   - **Services**: Both years saw increases in Services net sales, which also contributed to Apple's net income.\n   - **Mac**: Both years saw increases in Mac net sales, supporting Apple's overall net income.\n\nGiven the above, it seems plausible that Apple's net income in 2025 exceeded that in 2024, assuming no material changes in the underlying business practices or strategies.\n\n### Confidence Indicators:\n- **High Confidence**: We can confidently conclude that Apple's net income was indeed higher in 2025 compared to 2024, despite the differences in their respective year-end net income calculations.\n- **Medium Confidence**: It's reasonable to",
+    "latency_sec": 16.3412,
+    "answer_length": 353,
+    "context_utilisation": 0.371,
+    "context_hit_rate": 1.0,
+    "num_contexts_retrieved": 5,
+    "expected_answer": "Yes"
+  }
+]

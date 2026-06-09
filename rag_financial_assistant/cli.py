@@ -21,7 +21,7 @@ def main():
         print(answer)
 
         print("\nSources:\n")
-
+    
         for c in contexts:
             print(f"{c['source']} (page {c['page']})")
 

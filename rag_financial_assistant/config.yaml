@@ -10,6 +10,21 @@ retrieval:
   vector_weight: 0.6
   bm25_weight: 0.4
 
+# RAG Pipeline Score Thresholds and Prompt Engineering
+rag:
+  # If average retrieval score < score_threshold, trigger search tool
+  score_threshold: 0.5
+  # Threshold for marking answer as "low confidence" (score < this value)
+  low_confidence_threshold: 0.6
+  # Threshold for marking answer as "high confidence" (score >= this value)
+  high_confidence_threshold: 0.8
+  # Number of retries if search tool fails
+  max_search_retries: 2
+  # Enable dynamic prompt engineering based on confidence
+  enable_dynamic_prompts: true
+  # Log detailed metrics to MLflow
+  enable_metrics_logging: true
+
 finetuning:
   model_name: "Qwen/Qwen2.5-0.5B-Instruct"
   dataset_path: "data/fin_data/train.json"

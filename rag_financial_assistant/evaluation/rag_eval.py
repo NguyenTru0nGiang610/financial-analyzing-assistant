@@ -79,9 +79,9 @@ class RAGEvaluator:
     def __init__(self, pipeline, config_path: str = "config.yaml") -> None:
         self.pipeline = pipeline
         config = yaml.safe_load(open(config_path))
-        mlflow_cfg = config.get("mlflow", {})
-        mlflow.set_tracking_uri(mlflow_cfg.get("tracking_uri", "sqlite:///mlflow.db"))
-        mlflow.set_experiment(mlflow_cfg.get("experiment_name", "financial_finetuning"))
+        # mlflow_cfg = config.get("mlflow", {})
+        # mlflow.set_tracking_uri(mlflow_cfg.get("tracking_uri", "sqlite:///mlflow.db"))
+        # mlflow.set_experiment(mlflow_cfg.get("experiment_name", "financial_finetuning"))
 
     def _evaluate_single(self, query: str) -> dict[str, Any]:
         """Run one query and return its per-query metric dict."""
@@ -112,42 +112,42 @@ class RAGEvaluator:
         """
         results: list[dict[str, Any]] = []
 
-        with mlflow.start_run(run_name=run_name):
-            mlflow.log_param("num_queries", len(queries))
+        # with mlflow.start_run(run_name=run_name):
+        #     mlflow.log_param("num_queries", len(queries))
 
-            for i, query in enumerate(queries):
-                print(f"[Eval] ({i + 1}/{len(queries)}) {query[:80]}")
-                result = self._evaluate_single(query)
-                results.append(result)
+        for i, query in enumerate(queries):
+            print(f"[Eval] ({i + 1}/{len(queries)}) {query[:80]}")
+            result = self._evaluate_single(query)
+            results.append(result)
 
-                # Log per-query metrics at step = query index
-                mlflow.log_metrics(
-                    {
-                        "query/latency_sec": result["latency_sec"],
-                        "query/answer_length": result["answer_length"],
-                        "query/context_utilisation": result["context_utilisation"],
-                        "query/context_hit_rate": result["context_hit_rate"],
-                    },
-                    step=i,
-                )
+            # Log per-query metrics at step = query index
+            # mlflow.log_metrics(
+            #     {
+            #         "query/latency_sec": result["latency_sec"],
+            #         "query/answer_length": result["answer_length"],
+            #         "query/context_utilisation": result["context_utilisation"],
+            #         "query/context_hit_rate": result["context_hit_rate"],
+            #     },
+            #     step=i,
+            # )
 
-            # Aggregate metrics
-            def _mean(key: str) -> float:
-                return round(statistics.mean(r[key] for r in results), 4)
+        # Aggregate metrics
+        def _mean(key: str) -> float:
+            return round(statistics.mean(r[key] for r in results), 4)
 
-            agg = {
-                "agg/mean_latency_sec": _mean("latency_sec"),
-                "agg/mean_answer_length": _mean("answer_length"),
-                "agg/mean_context_utilisation": _mean("context_utilisation"),
-                "agg/mean_context_hit_rate": _mean("context_hit_rate"),
-                "agg/p95_latency_sec": round(
-                    sorted(r["latency_sec"] for r in results)[int(0.95 * len(results)) - 1], 4
-                ),
-            }
-            mlflow.log_metrics(agg)
+        agg = {
+            "agg/mean_latency_sec": _mean("latency_sec"),
+            "agg/mean_answer_length": _mean("answer_length"),
+            "agg/mean_context_utilisation": _mean("context_utilisation"),
+            "agg/mean_context_hit_rate": _mean("context_hit_rate"),
+            "agg/p95_latency_sec": round(
+                sorted(r["latency_sec"] for r in results)[int(0.95 * len(results)) - 1], 4
+            ),
+        }
+        # mlflow.log_metrics(agg)
 
-            print("\n[Eval] Aggregate results:")
-            for k, v in agg.items():
-                print(f"  {k}: {v}")
+        print("\n[Eval] Aggregate results:")
+        for k, v in agg.items():
+            print(f"  {k}: {v}")
 
         return results
