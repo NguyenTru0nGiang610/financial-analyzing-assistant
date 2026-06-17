@@ -135,16 +135,3 @@ class LangChainRAGPipeline:
     def run(self, query):
         result = self.chain.invoke(query)
         return result["answer"], result["contexts"]
-
-    @staticmethod
-    def save_training_example(query: str, contexts: list, answer: str, path: str = "data/langchain_finetune_dataset.jsonl") -> None:
-        """Append a QA pair from the LangChain pipeline to a JSONL file."""
-        example = {
-            "query": query,
-            "contexts": [c["text"] for c in contexts],
-            "answer": answer,
-            "pipeline": "langchain",
-        }
-        os.makedirs(os.path.dirname(path), exist_ok=True)
-        with open(path, "a") as f:
-            f.write(json.dumps(example) + "\n")

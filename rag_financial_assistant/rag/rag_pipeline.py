@@ -21,6 +21,7 @@ class RAGPipeline:
 
         self.retriever = Retriever(config)
         self.generator = LocalLLMGenerator()
+        # self.generator = LocalLLMGenerator() if not deep_seek_api_key else DeepSeekGenerator(deep_seek_api_key)
         self.search_tool = SearchTool()
         self.index_builder = IndexBuilder()
         # Score threshold configuration
@@ -118,14 +119,3 @@ class RAGPipeline:
 
         return answer, valid_contexts
 
-    @staticmethod
-    def save_training_example(query: str, contexts: list, answer: str, path: str = "data/finetune_dataset.jsonl") -> None:
-        """Append a QA pair to the fine-tuning dataset JSONL file."""
-        example = {
-            "query": query,
-            "contexts": [c["text"] for c in contexts],
-            "answer": answer,
-        }
-        os.makedirs(os.path.dirname(path), exist_ok=True)
-        with open(path, "a") as f:
-            f.write(json.dumps(example) + "\n")

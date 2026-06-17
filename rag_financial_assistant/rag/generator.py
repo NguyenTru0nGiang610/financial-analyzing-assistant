@@ -1,6 +1,10 @@
+from urllib import response
+
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 import logging
+import os
+from openai import OpenAI
 
 
 class LocalLLMGenerator:
@@ -40,3 +44,20 @@ class LocalLLMGenerator:
             for input_ids, output_ids in zip(model_inputs.input_ids, generated_ids, strict=False)
         ]
         return self.tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
+    
+class DeepSeekGenerator:
+    def __init__(self, api_key):
+        self.api_key = api_key
+        self.client = OpenAI(
+            api_key=os.environ.get('DEEPSEEK_API_KEY'),
+            base_url="https://api.deepseek.com")
+
+    def generate(self, prompt):
+        response = self.client.chat.completions.create(
+            model="deepseek-v4-flash",
+            messages=prompt,
+            stream=False,
+            reasoning_effort="medium",
+            extra_body={"thinking": {"type": "enabled"}}
+        )
+        return response.choices[0].message.content

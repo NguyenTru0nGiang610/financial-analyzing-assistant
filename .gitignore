@@ -20,3 +20,4 @@ bin-release/
 data/*
 frontend/node_modules
 __pycache__/
+.env
