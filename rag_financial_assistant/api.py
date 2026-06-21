@@ -1,3 +1,4 @@
+import os
 import uuid
 import time
 from flask import Flask, request, jsonify
@@ -58,9 +59,13 @@ def upload():
     if not file:
         return jsonify({"error": "No file uploaded"}), 400
 
-    file_bytes = file.read()
-    documents = extract_documents(file_bytes, file.filename)
+    # Save file to a temporary location
+    file_path = f"/tmp/{file.filename}"
+    file.save(file_path)
 
+    # Extract
+    documents = extract_documents(file_path)
+    os.remove(file_path)  
     # Chunk
     chunks = chunk_documents(documents, 400, 50)
 

@@ -8,13 +8,6 @@ def load_documents(folder):
 
     for file in os.listdir(folder):
         path = os.path.join(folder, file)
-
-        if not os.path.isfile(path):
-            continue
-
-        with open(path, "rb") as handle:
-            file_bytes = handle.read()
-
-        documents.extend(extract_documents(file_bytes, file))
-
+        print(f"Processing file: {path}")
+        documents.extend(extract_documents(path))
     return documents

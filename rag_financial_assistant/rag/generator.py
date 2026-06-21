@@ -5,8 +5,9 @@ from transformers import AutoModelForCausalLM, AutoTokenizer
 import logging
 import os
 from openai import OpenAI
-
-
+from dotenv import load_dotenv
+load_dotenv()
+key = os.environ.get("DEEPSEEK_API_KEY")
 class LocalLLMGenerator:
 
     def __init__(self):
@@ -46,16 +47,19 @@ class LocalLLMGenerator:
         return self.tokenizer.batch_decode(generated_ids, skip_special_tokens=True)[0]
     
 class DeepSeekGenerator:
-    def __init__(self, api_key):
-        self.api_key = api_key
+    def __init__(self):
         self.client = OpenAI(
-            api_key=os.environ.get('DEEPSEEK_API_KEY'),
-            base_url="https://api.deepseek.com")
+            api_key=key, base_url="https://api.deepseek.com")
 
     def generate(self, prompt):
+        messages = [
+            {"role": "system", "content": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant in financial analysis "
+            "and your mission is to answer any question based on the provided context with the most relevant information and financial analysis."},
+            {"role": "user", "content": prompt}
+        ]
         response = self.client.chat.completions.create(
             model="deepseek-v4-flash",
-            messages=prompt,
+            messages=messages,
             stream=False,
             reasoning_effort="medium",
             extra_body={"thinking": {"type": "enabled"}}

@@ -1,4 +1,4 @@
-from ingestion.build_index import IndexBuilder
+from ingestion.build_index import build_index
 
 if __name__ == "__main__":
-    IndexBuilder().run()
+    build_index()

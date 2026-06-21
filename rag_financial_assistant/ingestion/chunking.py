@@ -165,7 +165,7 @@ def _units_for_table(text, chunk_size, overlap):
     if not lines:
         return []
 
-    header = lines[0]          # first row = column names
+    header = lines[0]        
     data_rows = lines[1:]
 
     chunks = []

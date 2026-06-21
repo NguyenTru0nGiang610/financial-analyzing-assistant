@@ -7,9 +7,9 @@ import mlflow
 
 from retrieval.retriever import Retriever
 from rag.prompt_template import build_prompt, build_dynamic_prompt
-from rag.generator import LocalLLMGenerator
+from rag.generator import DeepSeekGenerator, LocalLLMGenerator
 from tools.searching_tool import SearchTool
-from ingestion.build_index import IndexBuilder
+from ingestion.build_index import build_index
 logger = logging.getLogger(__name__)
 
 
@@ -20,10 +20,9 @@ class RAGPipeline:
         config = yaml.safe_load(open("config.yaml"))
 
         self.retriever = Retriever(config)
-        self.generator = LocalLLMGenerator()
-        # self.generator = LocalLLMGenerator() if not deep_seek_api_key else DeepSeekGenerator(deep_seek_api_key)
+        # self.generator = LocalLLMGenerator()
+        self.generator = DeepSeekGenerator()
         self.search_tool = SearchTool()
-        self.index_builder = IndexBuilder()
         # Score threshold configuration
         self.score_threshold = config.get("rag", {}).get("score_threshold", 0.5)
         self.low_confidence_threshold = config.get("rag", {}).get("low_confidence_threshold", 0.6)

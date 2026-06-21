@@ -10,7 +10,7 @@ from langchain_core.runnables import RunnableLambda, RunnableParallel, RunnableP
 
 from retrieval.embedding_model import EmbeddingModel
 from retrieval.retriever import Retriever
-from rag.generator import LocalLLMGenerator
+from rag.generator import LocalLLMGenerator, DeepSeekGenerator
 
 
 LANGCHAIN_RAG_TEMPLATE = """
@@ -42,7 +42,7 @@ class LangChainRAGPipeline:
         self.top_k = self.config.get("top_k", retrieval_config.get("top_k", 5))
         self.vector_weight = retrieval_config.get("vector_weight", 0.6)
         self.bm25_weight = retrieval_config.get("bm25_weight", 0.4)
-        self.generator = generator or LocalLLMGenerator()
+        self.generator = DeepSeekGenerator() 
 
         if self.vector_store is None:
             retriever_config = dict(self.config)
@@ -59,7 +59,6 @@ class LangChainRAGPipeline:
     def _build_chain(self):
         retrieval = RunnableLambda(self._retrieve_documents)
         answer = RunnableLambda(self._generate_answer)
-
         return (
             RunnableParallel(
                 {
@@ -85,7 +84,7 @@ class LangChainRAGPipeline:
                 bm25_weight=self.bm25_weight,
             )
 
-        mlflow.log_metric("langchain_latency_retrieval", time.time() - start)
+        # mlflow.log_metric("langchain_latency_retrieval", time.time() - start)
         return [self._context_to_document(context) for context in contexts]
 
     @staticmethod
