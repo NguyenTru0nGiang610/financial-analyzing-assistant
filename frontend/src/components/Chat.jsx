@@ -1,46 +1,123 @@
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { queryRAG } from "../api";
 import Message from "./Message";
 
-export default function Chat({ sessionId }) {
+export default function Chat({
+  sessionId,
+  hasSources,
+  pendingQuestion,
+  onConsumeQuestion,
+}) {
   const [messages, setMessages] = useState([]);
   const [input, setInput] = useState("");
+  const [loading, setLoading] = useState(false);
+  const scrollRef = useRef(null);
 
-  const handleSend = async () => {
-    if (!input) return;
-
-    const userMessage = { role: "user", text: input };
-    setMessages((prev) => [...prev, userMessage]);
+  const send = async (text) => {
+    const q = (text ?? input).trim();
+    if (!q || loading) return;
 
     setInput("");
+    setMessages((prev) => [...prev, { role: "user", text: q }]);
+    setLoading(true);
 
-    const res = await queryRAG(sessionId, input);
+    try {
+      const res = await queryRAG(sessionId, q);
+      setMessages((prev) => [
+        ...prev,
+        { role: "assistant", text: res.answer, sources: res.sources },
+      ]);
+    } catch (err) {
+      setMessages((prev) => [
+        ...prev,
+        { role: "assistant", text: `⚠️ ${err.message}`, isError: true },
+      ]);
+    } finally {
+      setLoading(false);
+    }
+  };
 
-    const botMessage = {
-      role: "assistant",
-      text: res.answer,
-      sources: res.sources,
-    };
+  // Run a question forwarded from the Studio panel.
+  useEffect(() => {
+    if (pendingQuestion) {
+      send(pendingQuestion);
+      onConsumeQuestion?.();
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [pendingQuestion]);
 
-    setMessages((prev) => [...prev, botMessage]);
+  useEffect(() => {
+    scrollRef.current?.scrollTo({
+      top: scrollRef.current.scrollHeight,
+      behavior: "smooth",
+    });
+  }, [messages, loading]);
+
+  const onKeyDown = (e) => {
+    if (e.key === "Enter" && !e.shiftKey) {
+      e.preventDefault();
+      send();
+    }
   };
 
   return (
-    <div className="chat">
-      <div className="messages">
-        {messages.map((msg, i) => (
-          <Message key={i} msg={msg} />
-        ))}
+    <section className="panel chat-panel">
+      <div className="panel-head">
+        <h2>Chat</h2>
       </div>
 
-      <div className="input-box">
-        <input
+      <div className="messages" ref={scrollRef}>
+        {messages.length === 0 ? (
+          <div className="chat-empty">
+            <h1>Ask your financial documents anything</h1>
+            <p className="muted">
+              FinNotebook answers using only the sources you upload, with
+              citations back to the exact page.
+            </p>
+          </div>
+        ) : (
+          messages.map((m, i) => <Message key={i} msg={m} />)
+        )}
+
+        {loading && (
+          <div className="message assistant">
+            <div className="avatar">◆</div>
+            <div className="bubble typing">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        )}
+      </div>
+
+      <div className="composer">
+        <textarea
+          rows={1}
           value={input}
           onChange={(e) => setInput(e.target.value)}
-          placeholder="Ask a question..."
+          onKeyDown={onKeyDown}
+          placeholder={
+            hasSources
+              ? "Ask about revenue, margins, risks…"
+              : "Upload a source to start chatting"
+          }
         />
-        <button onClick={handleSend}>Send</button>
+        <button
+          className="send-btn"
+          onClick={() => send()}
+          disabled={loading || !input.trim()}
+          title="Send"
+        >
+          ➤
+        </button>
       </div>
-    </div>
+      {!hasSources && (
+        <div className="composer-hint muted">
+          Tip: add a PDF in the Sources panel — answers are grounded in your
+          uploads.
+        </div>
+      )}
+    </section>
   );
 }
